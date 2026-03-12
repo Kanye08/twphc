@@ -51,9 +51,9 @@ Use this if you already have PHP, Composer and MySQL installed on your machine.
    DB_CONNECTION=mysql
    DB_HOST=127.0.0.1
    DB_PORT=3306
-   DB_DATABASE=twpc
+   DB_DATABASE=twphc
    DB_USERNAME=root
-   DB_PASSWORD=your_mysql_password
+   DB_PASSWORD=
 ```
 
 5. Run migrations and seed the database:
@@ -100,9 +100,9 @@ APP_URL=http://localhost:8000
 DB_CONNECTION=mysql
 DB_HOST=db
 DB_PORT=3306
-DB_DATABASE=twpc
-DB_USERNAME=laravel
-DB_PASSWORD=secret
+DB_DATABASE=twphc
+DB_USERNAME=root
+DB_PASSWORD=
 
 SESSION_DRIVER=file
 CACHE_STORE=file
